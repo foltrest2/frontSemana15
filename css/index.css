@@ -1,0 +1,58 @@
+.boostform {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.fixed-pos{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 999;
+}
+
+.cardMargin{
+    margin: 20px;
+    
+}
+
+.userview{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 202, 123);
+    position: relative;
+}
+
+.userview button{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.nonblocked{
+    background-color: blanchedalmond;
+    border: 2px solid rgb(255, 202, 123);
+}
+
+.blocked{
+    background-color: rgb(255, 111, 75);
+    border: 2px solid rgb(255, 37, 37);
+}
+
+.userview div{
+    margin: 10px;
+}
+
+.blocked:hover{
+    background-color: rgb(255, 78, 65);
+}
+
+.nonblocked:hover{
+    background-color: rgb(255, 222, 172);
+}
